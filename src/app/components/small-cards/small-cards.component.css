@@ -1,0 +1,31 @@
+.container-small-cards {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.small-cards-picture img{
+  height: 120px;
+}
+
+.small-cards-text p{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.small-cards-card-sep{
+  display: flex;
+  justify-content: center;
+}
+
+.small-cards-card-sep hr {
+  margin-top: 5px;
+  width: 380px;
+	border: 1px solid;
+	border-color: rgb(34, 34, 34);
+}
+
+
