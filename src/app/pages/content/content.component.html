@@ -1,1 +1,12 @@
-<p>content works!</p>
+<div class="container-content">
+  <div class="content-cover">
+    <img src="{{ photoCover }}" alt="">
+  </div>
+  <div class="content-title">
+    <h1>{{ pageTitle }}</h1>
+  </div>
+  <div class="content-description">
+    <P>{{ pageText }}</P>
+  </div>
+  <a [routerLink]="['']"><< VOLTAR </a>
+</div>
